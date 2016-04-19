@@ -1,11 +1,6 @@
 $(document).ready(function () {});
 
 var $counter = 0;
-$('.newhabbt').click(function () {
-
-});
-
-
 $(document).on('click', '#add', function () {
 	var x = $(this).find("div>div>h3").text();
 	$(this).find("div>div>h3").text(Number(x) + 1);
